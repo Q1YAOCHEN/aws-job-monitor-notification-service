@@ -5,11 +5,11 @@ def fetch_sample_jobs() -> list[JobPosting]:
     """Sample source for local dry-runs and Lambda test events."""
     return [
         JobPosting(
-            job_id="sora-data-analyst-coop",
+            job_id="sample-data-analyst-coop",
             title="Data Analyst Coop",
-            company="Sora Fuel",
+            company="Northstar Analytics Lab",
             location="Boston, MA",
-            url="https://example.com/jobs/sora-data-analyst-coop",
+            url="https://example.com/jobs/sample-data-analyst-coop",
             source="sample",
         ),
         JobPosting(
